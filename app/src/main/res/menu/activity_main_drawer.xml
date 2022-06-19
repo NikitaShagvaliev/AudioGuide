@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@mipmap/ic_news_foreground"
+            android:title="О городе" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@mipmap/ic_map_foreground"
+            android:title="Карта" />
+        <item
+            android:id="@+id/nav_attractions"
+            android:icon="@mipmap/ic_attractions_foreground"
+            android:title="Достопримечательности" />
+    </group>
+</menu>
